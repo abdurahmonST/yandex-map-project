@@ -44,7 +44,7 @@ const initialProperties: Property[] = [
 const MapIntegration: React.FC = () => {
   const defaultState = useMemo(
     () => ({
-      center: [41.311081, 69.240562] as [number, number], // Tashkent
+      center: [41.311081, 69.240562] as [number, number],
       zoom: 11,
     }),
     []

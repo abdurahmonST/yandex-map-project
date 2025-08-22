@@ -1,0 +1,31 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  font-family: "pargraph", sans-serif;
+  font-size: 34px;
+  font-weight: 100;
+  font-style: inherit;
+  line-height: 46px;
+  color: var(--dark-color);
+  border: none;
+  outline: none;
+  background-color: #1d161610;
+  padding: 15px 24px;
+  border-radius: 4px;
+  width: 580px;
+}
+
+.searchIcon {
+  position: relative;
+  right: 52px;
+  top: 12px;
+  cursor: pointer;
+}

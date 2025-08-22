@@ -1,0 +1,21 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 213px;
+  margin-bottom: 44px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}

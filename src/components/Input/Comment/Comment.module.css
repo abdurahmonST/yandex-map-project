@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: flex-start; /* Elementlarni yuqoridan boshlash */
+  gap: 10px; /* Input va button orasida bo'shliq */
+}
+
+.InputStyle {
+  font-family: "pargraph", sans-serif;
+  font-size: 34px;
+  font-weight: 100;
+  font-style: inherit;
+  line-height: 1.2;
+  color: var(--dark-color);
+  border: none;
+  outline: none;
+  background-color: #1d161610;
+  padding: 15px 24px;
+  border-radius: 4px;
+  width: 900px;
+  height: 210px;
+  resize: vertical;
+}
+
+.ButtonStyle {
+  position: relative;
+  top: 162px;
+  right: 100px;
+  font-family: "pargraph", sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  font-style: inherit;
+  line-height: 32px;
+  color: var(--light-color);
+  border: none;
+  outline: none;
+  background-color: var(--dark-color);
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.InputStyle::placeholder {
+  color: var(--dark-color);
+  opacity: 0.7;
+  vertical-align: top;
+}

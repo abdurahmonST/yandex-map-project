@@ -15,7 +15,8 @@
     "@react-google-maps/api": "^2.20.7",
     "@vis.gl/react-google-maps": "^1.5.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router": "^7.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",

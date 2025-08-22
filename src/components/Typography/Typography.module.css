@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Header";
+  src: url("/fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "secondHeader";
+  src: url("/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "paragraph";
+  src: url("/fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
+  font-weight: 200 900;
+  font-style: normal;
+}
+
+.h1 {
+  font-family: "Header", sans-serif;
+  font-size: 80px;
+  color: var(--dark-color);
+}
+
+.h2 {
+  font-family: "secondHeader", sans-serif;
+  font-size: 40px;
+  color: var(--dark-color);
+}
+
+.paragraph {
+  font-family: "pargraph", sans-serif;
+  font-size: 34px;
+  font-weight: 100;
+  font-style: inherit;
+  line-height: 46px;
+  color: var(--dark-color);
+}

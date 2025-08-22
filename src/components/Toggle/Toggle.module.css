@@ -1,0 +1,48 @@
+.toggle {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: var(--dark-color);
+  cursor: pointer;
+  /* margin: 40px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.toggle.active {
+  background-color: var(--dark-color);
+}
+
+.button {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--light-color);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  left: 4px;
+}
+
+.button.active {
+  transform: translateX(48px);
+}
+
+.text {
+  font-family: "secondHeader";
+  font-size: 15px;
+  position: absolute;
+  right: 13px;
+  color: var(--light-color);
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+
+.textActive {
+  transform: translateX(-50px);
+}
